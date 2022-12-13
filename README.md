@@ -1,5 +1,5 @@
 # Repository for Trailblazers
-(Move to the master branch to see a source)
+(Move to the master branch to view a source)
 
 ## Overview
 - Code boilerplates for trailhead, based on my knowledge and misfiets
