@@ -1,4 +1,4 @@
-# Salesforce-Repo
+# Repository for Trailblazers
 
 Code boilerplates for trailhead, based on my knowledge and misfiets
 
