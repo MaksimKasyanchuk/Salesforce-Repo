@@ -1,9 +1,9 @@
 @isTest
-global class ParkServiceMock implements WebServiceMock{
+global class ParkServiceMock implements WebServiceMock {
     global void doInvoke(
         Object stub,
         Object request,
-        Map<String,Object> response,
+        Map<String, Object> response,
         String endpoint,
         String soapAction,
         String requestName,
@@ -11,8 +11,10 @@ global class ParkServiceMock implements WebServiceMock{
         String responseName,
         String responseType
     ) {
-        ParkService.byCountryResponse response_x = new ParkService.byCountryResponse();
-        response_x.return_x = new List<String>{'United States'};
-        response.put('return_x', response_x);
+        // Specify the response you want to send
+        ParkService.byCountryResponse country = new ParkService.byCountryResponse();
+        country.return_x = new List<String> {'United States'};
+        // End
+        response.put('return_x', country);
     }
 }
